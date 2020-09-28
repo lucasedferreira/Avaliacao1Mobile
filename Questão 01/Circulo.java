@@ -28,9 +28,21 @@ public class Circulo
         return raio;
     }
 
+    public void setRaio(double raio) {
+        this.raio = raio;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
     /* (c)
-    Um aluno escreveu o seguinte código para a classe `Circulo`:
-    */
+            Um aluno escreveu o seguinte código para a classe `Circulo`:
+            */
     @Override
     public String toString() {
         return "Circulo [raio=" + raio + ", cor=" + cor + "]";

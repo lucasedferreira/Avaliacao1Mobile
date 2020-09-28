@@ -13,7 +13,7 @@ uma carta no vetor `mao`, na posição `indiceMao`. Você deve incrementar
 */
 public class Jogador {
     private ArrayList<Carta> mao;
-    private int indiceMao
+    private int indiceMao;
 
     Jogador() {
         this.mao = new ArrayList<Carta>(3);

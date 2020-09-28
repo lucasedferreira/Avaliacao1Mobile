@@ -15,6 +15,10 @@ public class Quadrado implements Geometria {
         return lado;
     }
 
+    public void setLado(double lado) {
+        this.lado = lado;
+    }
+
     @Override
     public double getPerimetro() {
         return this.lado * 4;

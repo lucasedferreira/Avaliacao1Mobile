@@ -17,7 +17,15 @@ public class Cilindro {
         return altura;
     }
 
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
     public Circulo getBase() {
         return base;
+    }
+
+    public void setBase(Circulo base) {
+        this.base = base;
     }
 }
