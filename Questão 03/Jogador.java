@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /*
 Implemente uma classe `Jogador` que contenha os atributos: `mao`, 
 do tipo `Carta[]` (um vetor de cartas) e `indiceMao` do tipo `int`. 
@@ -10,5 +12,24 @@ uma carta no vetor `mao`, na posição `indiceMao`. Você deve incrementar
 `indiceMao` após receber a carta. 
 */
 public class Jogador {
-    
+    private ArrayList<Carta> mao;
+    private int indiceMao
+
+    Jogador() {
+        this.mao = new ArrayList<Carta>(3);
+        this.indiceMao = 0;
+    }
+
+    public ArrayList<Carta> getMao() {
+        return mao;
+    }
+
+    public int getIndiceMao() {
+        return indiceMao;
+    }
+
+    public void recebeCarta(Carta c) {
+        this.mao.add(indiceMao, c);
+        this.indiceMao++;
+    }
 }
